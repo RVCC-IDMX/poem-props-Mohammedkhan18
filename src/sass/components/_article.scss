@@ -36,16 +36,12 @@
 
     margin-block: var(--step-5);
     border: 0;
-    border: var(--step-5) solid black;
+    border: var(--step-5) solid brown;
     border-radius: 50%;
-    background-color: black;
+    background-color: brown;
     width: 96%;
     margin-inline: auto;
   }
 }
 
-body {
-  background-color: #363B3F;
-  padding-left: 60px;
-  padding-right: 60px;
-}
+
