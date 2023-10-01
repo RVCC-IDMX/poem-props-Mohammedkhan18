@@ -1,0 +1,57 @@
+@use "../abstracts/mixins" as mixins;
+
+    .hero {
+
+        line-height: var(--font-lineheight-1);
+        font-size: var(--font-size-fluid-2);
+        font-weight: var(--font-weight-9);
+        font-family: var(--font-sans);
+      
+      
+        @include mixins.simple-grid(1rem);
+        grid-template: "container";
+      
+        > * {
+          grid-area: container;
+          margin-inline: auto;
+        }
+
+        &__title{
+            font-size: var(--font-size-fluid-3);
+            color: black;
+            text-align: center;
+            padding-top: 15%;
+            margin-top: 50%;
+            height: max-content;
+            font-family: 'Lemonada', cursive;
+            font-weight: 400;
+            
+        }
+        &__author{
+            color: var(--gray-7);
+            font-size: var(--font-size-fluid-1);
+            display: grid;
+            grid-auto-flow: column;
+            margin-left:auto;
+            width:0%;
+            z-index: 0;
+            padding-top: 30%;
+            height: max-content;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 400;
+
+    }
+}
+
+    .hero-figure {
+        @include mixins.simple-grid(1rem);
+      
+        > * {
+          display: block;
+          margin-inline: auto;
+        }
+        
+        &__img {
+          border-radius: var(--radius-3);
+        }
+      }

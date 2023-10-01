@@ -1,1 +1,16 @@
 /* home */
+@use "../components/body";
+@use "../components/header";
+@use "../components/article";
+@use "../components/footer";
+@use "../base/typography" as type;
+
+
+body{
+    font-family: type.$font;
+
+}
+
+header {
+    font-family: type.$font2;
+}
