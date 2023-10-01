@@ -9,6 +9,7 @@
   margin-inline: auto;
   font-size: var(--font-size-fluid-2);
 
+
   &__subtitle {
     font-variant: small-caps;
     font-size: var(--font-size-fluid-2);
@@ -41,4 +42,10 @@
     width: 96%;
     margin-inline: auto;
   }
+}
+
+body {
+  background-color: #363B3F;
+  padding-left: 60px;
+  padding-right: 60px;
 }
