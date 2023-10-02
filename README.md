@@ -28,4 +28,6 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 
 ## Resources
 
-<small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+<small>The Poetry is by George Gordon Byron on https://www.public-domain-poetry.com/george-gordon-byron/darkness-10618</small>
+<small>The image is by Sergiu Baica on https://unsplash.com/photos/5hCneY6YeFQ</small>
+<small>The Favicon is by Vecteezy on https://www.vecteezy.com/free-vector/death</small>
