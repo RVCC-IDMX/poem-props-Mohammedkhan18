@@ -3,12 +3,14 @@
 .footer {
   @include mixins.simple-grid(1rem);
   place-content: center;
+  color: white;
 }
 
 
 .copyright,
-.credits {
+.credits, a {
   text-align: center;
   font-size: var(--font-size-0);
   margin-inline: auto;
+  color: white;
 }

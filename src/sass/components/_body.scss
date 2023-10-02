@@ -2,7 +2,9 @@
 
 body {
   @include mixins.simple-grid(2rem);
-  width: min(100% - 2rem, 60ch);
+  width: min(100% + 1rem, 900ch);
   margin-inline: auto;
   padding-block: 1rem;
+  background-color: #301934;
 }
+

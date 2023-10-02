@@ -6,7 +6,7 @@
   // gap: var(--size-fluid-3);
   @include mixins.simple-grid(var(--size-fluid-3));
 
-  margin-inline: auto;
+  margin-inline: 20%;
   font-size: var(--font-size-fluid-2);
 
 
@@ -15,19 +15,25 @@
     font-size: var(--font-size-fluid-2);
     letter-spacing: var(--font-letterspacing-2);
     text-align: center;
+    color: black;
+    background-color: beige;
 
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding: 10px;
+    margin-inline: 20%;
 
     > * {
       display: block;
       width: max-content;
     }
+
   }
 
   &__stanza {
     font-size: calc(var(--font-size-fluid-2) * 0.75);
+    color: white;
   }
 
   &__rule {
@@ -42,6 +48,11 @@
     width: 96%;
     margin-inline: auto;
   }
+}
+
+.poem__subtitle {
+  border: 5px dotted black;
+  border-radius: 1.5rem;
 }
 
 
